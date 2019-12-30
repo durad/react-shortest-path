@@ -67,8 +67,8 @@ const App: React.FC<AppProps> = (props) => {
   const svgHighlight = hoveredField && <SvgHighlight {...{hoveredField, fieldSize, lineWidth}} />;
   const svgBlocks = useMemo(() => (<SvgBlocks {...{blocks, fieldSize}} />), [blocks, fieldSize]);
   const svgShortestPath = <SvgShortestPath {...{ tableSize, blockMap, fieldSize, lineWidth, start, end }} />;
-  const svgStart = start && <SvgLocationIcon pos={start} fieldSize={fieldSize} color="#153" />;
-  const svgEnd = end && <SvgLocationIcon pos={end} fieldSize={fieldSize} color="#315" />;
+  const svgStart = start && <SvgLocationIcon pos={start} fieldSize={fieldSize} lineWidth={lineWidth} color="#153" />;
+  const svgEnd = end && <SvgLocationIcon pos={end} fieldSize={fieldSize} lineWidth={lineWidth} color="#315" />;
 
   return (
     <div className="app-component">
