@@ -1,4 +1,38 @@
 
 .app-component {
-  padding: 40px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .app-menu-container {
+    padding: 20px;
+    flex: 0 0 auto;
+  }
+
+  .app-content {
+    padding: 40px;
+    flex: 1 1;
+
+    .board {
+      cursor: crosshair;
+
+      .h {
+        stroke-width: 4;
+      }
+
+      .lines {
+        stroke: #888;
+      }
+
+      .highlight-rect {
+        stroke: #444;
+        fill: rgba($color: #ff8, $alpha: 0.2);
+      }
+
+      .block {
+        // fill: #aaa;
+      }
+    }
+  }
 }
