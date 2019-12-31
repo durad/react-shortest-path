@@ -1,17 +1,12 @@
 {
-  "name": "react14-shortest-path",
+  "name": "react-shortest-path",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@types/node": "^12.0.0",
-    "@types/react": "^16.9.0",
-    "@types/react-dom": "^16.9.0",
-    "lodash-es": "^4.17.15",
-    "node-sass": "^4.13.0",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
     "react-scripts": "3.3.0",
-    "react-use-gesture": "^6.0.14",
+    "lodash-es": "^4.17.15",
     "typescript": "^3.7.3"
   },
   "scripts": {
@@ -36,6 +31,9 @@
     ]
   },
   "devDependencies": {
+    "node-sass": "^4.13.0",
+    "@types/react": "^16.9.0",
+    "@types/react-dom": "^16.9.0",
     "@types/lodash-es": "^4.17.3"
   }
 }
